@@ -10,8 +10,8 @@ The notebook has been developed on Google Colab, but it should run on a local en
 
 1. Install Anaconda distribution of Python from here: https://www.anaconda.com/products/distribution
 
-2. Create a [new environment](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-with-commands):
-`conda create -n seattle`
+2. Create a [new environment](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-with-commands) having python 3.8:
+`conda create -n seattle python=3.8`
 
 3. Activate the environment:
 `conda activate seattle`
