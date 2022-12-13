@@ -60,7 +60,7 @@ if not os.path.exists(address + 'weather_2016_2018.csv'):
 if not os.path.exists(address + 'weather_2019_2021.csv'):
     os.system(f"wget -O {address}weather_2019_2021.csv https://www.ncei.noaa.gov/orders/cdo/3169979.csv")
 
-if not os.path.exists(address + 'ghcnd-stations.csv'):
+if not os.path.exists(address + 'ghcnd-stations.txt'):
     os.system(f"wget -O {address}ghcnd-stations.txt http://www1.ncdc.noaa.gov/pub/data/ghcn/daily/ghcnd-stations.txt")
 
 
